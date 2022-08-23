@@ -11,7 +11,9 @@ const NavBar = props => {
       <img src={LOGO} alt="website logo" className="website-logo" />
       <ul className="score-time-container">
         <li>
-          <p className="score-num">Score: {score}</p>
+          <p className="score-num">
+            Score: <span className="score">{score}</span>
+          </p>
         </li>
         <li className="timer-container">
           <img src={TIME} alt="timer" className="timer-logo" />

@@ -311,7 +311,6 @@ class App extends Component {
       isTrue: false,
       time: 60,
     })
-    this.timerId = setInterval(this.statusChange, 1000)
   }
 
   render() {
